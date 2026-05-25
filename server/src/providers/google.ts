@@ -75,6 +75,7 @@ const GEMINI_UNSUPPORTED_SCHEMA_KEYS = new Set([
   '$schema', '$id', '$ref', '$defs', '$comment',
   'definitions',
   'exclusiveMinimum', 'exclusiveMaximum',
+  'additionalProperties',
   'patternProperties', 'unevaluatedProperties', 'unevaluatedItems',
   'if', 'then', 'else',
   'contentEncoding', 'contentMediaType', 'contentSchema',
