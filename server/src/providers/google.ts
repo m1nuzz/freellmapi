@@ -76,6 +76,7 @@ const GEMINI_UNSUPPORTED_SCHEMA_KEYS = new Set([
   'definitions',
   'exclusiveMinimum', 'exclusiveMaximum',
   'additionalProperties',
+  'const',
   'patternProperties', 'unevaluatedProperties', 'unevaluatedItems',
   'if', 'then', 'else',
   'contentEncoding', 'contentMediaType', 'contentSchema',
